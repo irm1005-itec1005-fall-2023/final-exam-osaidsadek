@@ -80,20 +80,7 @@ The images can be found in the `./images` folder, and the text content for the p
 
 ## Grading rubric
 
-The creation and posting of this web page is worth 20% of your final grade and marked out of 100.
-
-| Criteria                | Total&nbsp;Marks | How we define excellence                                                                                                                                                                                                                                                                                                              |
-| ----------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|Overall code quality              | **10%**          | The HTML code submitted is well formed, and structured. Appropriate semantic elements are used throughout the document. Correct use of headings `<h1-h6>` and heading structure. The web page has the appropriate meta tags in the `<head>` to set the charset and viewport values. The  CSS code submitted is well formed, and implements the Web page as specified in the content and design requirements.|                                                        |
-|Header and Footer   | **10%**          | The Header and Footer areas are implemented per specification                                                          |
-|Hero     | **10%**          | The Hero section is implemented per specification                                                          |
-|Skills     | **10%**          | The Skills section is implemented per specification                                                          |
-|About     | **10%**          | The About section is implemented per specification                                                          |
-|My Work     | **10%**          | The My Work section is implemented per specification                                                          |
-|CTA     | **10%**          | The Call to action section is implemented per specification                                                          |
-| Moment of charm                  | **10%**          | Unique design elements have been added to elevate the product card. For example, a background gradient, box shadow, hover state for link, border radius (or lack thereof), changes to spacing, or any unique design elements.                                                                                                                                             |
-| W3C Compliance          | **10%**          | There are no validation errors found in the code for either the HTML or CSS.                                                                                                                                                                                                                                                                                     |
-| GitHub&nbsp;submission  | **10%**          | The HTML content is added to the `index.html` file and CSS is added to the `style.css` file. The repository has both the assignment README.md file and a LICENSE file that contains the MIT license. GitHub Pages services has been correctly activated.                                                                              |
+                                 |
 
 ## Late submissions
 

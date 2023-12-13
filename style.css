@@ -34,8 +34,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-
-  background-color: #f7ead7;
+  background-color: #ffebcd; /* Updated light background color */
 }
 
 /*
@@ -51,8 +50,7 @@ body {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
- }
-
+}
 
 /*
  * SHARED STYLES
@@ -67,3 +65,152 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffdab9; /* Updated light background color */
+  color: #030303;
+}
+
+nav {
+  align-items: end;
+}
+
+header {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  color: #131212;
+  /* Updated header text color */
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo img {
+  width: 42px;
+  /* Adjust the width as needed */
+  height: auto;
+  background-color: #fa8072;
+  /* Updated logo background color */
+}
+
+nav {
+  background-color: #fa8072;
+  /* Updated navigation background color */
+  padding: 10px;
+  align-items: end;
+}
+
+nav a {
+  color: #ffffff;
+  /* Updated navigation text color */
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #87ceeb;
+  /* Updated navigation hover background color */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero,
+.skills,
+.about-me,
+.my-work,
+.contact-me {
+  width: 80%;
+  margin: 20px 0;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skills li {
+  margin: 10px;
+  background-color: #ffb6c1;
+  /* Updated skills background color */
+  color: #ffffff;
+  /* Updated skills text color */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.about-me img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.my-work {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+}
+
+.work-item {
+  margin: 10px 0;
+}
+
+.work-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  margin: 0%;
+  background-color: #dda0dd;
+  /* Updated footer background color */
+  background-size: cover;
+  color: #121212;
+  /* Updated footer text color */
+  padding: 20px;
+  border-radius: 10px;
+  /* Round the corners */
+  text-align: center;
+}
+
+footer nav {
+  background-color: #8a2be2;
+  /* Updated footer navigation background color */
+}
+
+footer img {
+  size: 20px;
+}
+
+.about-me .button {
+  background-color: #ff69b4;
+  /* Updated button background color */
+  border: none;
+  color: #ffffff;
+  /* Updated button text color */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.about-me .button:hover {
+  background-color: #d9327b;
+  /* Updated button hover background color */
+}
